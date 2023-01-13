@@ -8,21 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		BB06988D2968F39A006E30FA /* CochekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB06988C2968F39A006E30FA /* CochekApp.swift */; };
-		BB06988F2968F39A006E30FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB06988E2968F39A006E30FA /* ContentView.swift */; };
 		BB0698912968F39C006E30FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0698902968F39C006E30FA /* Assets.xcassets */; };
 		BB0698942968F39C006E30FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0698932968F39C006E30FA /* Preview Assets.xcassets */; };
-		BB0698962968F39C006E30FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0698952968F39C006E30FA /* Persistence.swift */; };
-		BB0698992968F39C006E30FA /* Cochek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB0698972968F39C006E30FA /* Cochek.xcdatamodeld */; };
+		BB0698A02969075C006E30FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB06989F2969075C006E30FA /* ContentView.swift */; };
+		BB0698AA296A6AB4006E30FA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0698A9296A6AB4006E30FA /* Network.swift */; };
+		BB0698AD296B2FCA006E30FA /* Coinpaprika in Frameworks */ = {isa = PBXBuildFile; productRef = BB0698AC296B2FCA006E30FA /* Coinpaprika */; };
+		BB0698AF296B2FCA006E30FA /* CoinpaprikaNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = BB0698AE296B2FCA006E30FA /* CoinpaprikaNetworking */; };
+		BB0698B1296B2FCA006E30FA /* CoinpaprikaNetworkingMocks in Frameworks */ = {isa = PBXBuildFile; productRef = BB0698B0296B2FCA006E30FA /* CoinpaprikaNetworkingMocks */; };
+		BB0698B3296D95F5006E30FA /* PaprikaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0698B2296D95F5006E30FA /* PaprikaDetailView.swift */; };
+		BB0698B529714E63006E30FA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0698B429714E63006E30FA /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB0698892968F39A006E30FA /* Cochek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cochek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB06988C2968F39A006E30FA /* CochekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CochekApp.swift; sourceTree = "<group>"; };
-		BB06988E2968F39A006E30FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB0698902968F39C006E30FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0698932968F39C006E30FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BB0698952968F39C006E30FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BB0698982968F39C006E30FA /* Cochek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cochek.xcdatamodel; sourceTree = "<group>"; };
+		BB06989F2969075C006E30FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB0698A9296A6AB4006E30FA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BB0698B2296D95F5006E30FA /* PaprikaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaprikaDetailView.swift; sourceTree = "<group>"; };
+		BB0698B429714E63006E30FA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +35,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0698AF296B2FCA006E30FA /* CoinpaprikaNetworking in Frameworks */,
+				BB0698B1296B2FCA006E30FA /* CoinpaprikaNetworkingMocks in Frameworks */,
+				BB0698AD296B2FCA006E30FA /* Coinpaprika in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				BB06988C2968F39A006E30FA /* CochekApp.swift */,
-				BB06988E2968F39A006E30FA /* ContentView.swift */,
+				BB06989F2969075C006E30FA /* ContentView.swift */,
+				BB0698B429714E63006E30FA /* SearchView.swift */,
+				BB0698B2296D95F5006E30FA /* PaprikaDetailView.swift */,
+				BB0698A9296A6AB4006E30FA /* Network.swift */,
 				BB0698902968F39C006E30FA /* Assets.xcassets */,
-				BB0698952968F39C006E30FA /* Persistence.swift */,
-				BB0698972968F39C006E30FA /* Cochek.xcdatamodeld */,
 				BB0698922968F39C006E30FA /* Preview Content */,
 			);
 			path = Cochek;
@@ -89,6 +98,11 @@
 			dependencies = (
 			);
 			name = Cochek;
+			packageProductDependencies = (
+				BB0698AC296B2FCA006E30FA /* Coinpaprika */,
+				BB0698AE296B2FCA006E30FA /* CoinpaprikaNetworking */,
+				BB0698B0296B2FCA006E30FA /* CoinpaprikaNetworkingMocks */,
+			);
 			productName = Cochek;
 			productReference = BB0698892968F39A006E30FA /* Cochek.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +131,9 @@
 				Base,
 			);
 			mainGroup = BB0698802968F39A006E30FA;
+			packageReferences = (
+				BB0698AB296B2FCA006E30FA /* XCRemoteSwiftPackageReference "coinpaprika-api-swift-client" */,
+			);
 			productRefGroup = BB06988A2968F39A006E30FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,9 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0698992968F39C006E30FA /* Cochek.xcdatamodeld in Sources */,
-				BB0698962968F39C006E30FA /* Persistence.swift in Sources */,
-				BB06988F2968F39A006E30FA /* ContentView.swift in Sources */,
+				BB0698B529714E63006E30FA /* SearchView.swift in Sources */,
+				BB0698B3296D95F5006E30FA /* PaprikaDetailView.swift in Sources */,
+				BB0698A02969075C006E30FA /* ContentView.swift in Sources */,
+				BB0698AA296A6AB4006E30FA /* Network.swift in Sources */,
 				BB06988D2968F39A006E30FA /* CochekApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +296,13 @@
 				DEVELOPMENT_TEAM = 3X9THM5Y3L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +310,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwikun.Cochek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,11 +330,13 @@
 				DEVELOPMENT_TEAM = 3X9THM5Y3L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +344,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwikun.Cochek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,18 +376,34 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		BB0698972968F39C006E30FA /* Cochek.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BB0698982968F39C006E30FA /* Cochek.xcdatamodel */,
-			);
-			currentVersion = BB0698982968F39C006E30FA /* Cochek.xcdatamodel */;
-			path = Cochek.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		BB0698AB296B2FCA006E30FA /* XCRemoteSwiftPackageReference "coinpaprika-api-swift-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/coinpaprika/coinpaprika-api-swift-client";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB0698AC296B2FCA006E30FA /* Coinpaprika */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0698AB296B2FCA006E30FA /* XCRemoteSwiftPackageReference "coinpaprika-api-swift-client" */;
+			productName = Coinpaprika;
+		};
+		BB0698AE296B2FCA006E30FA /* CoinpaprikaNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0698AB296B2FCA006E30FA /* XCRemoteSwiftPackageReference "coinpaprika-api-swift-client" */;
+			productName = CoinpaprikaNetworking;
+		};
+		BB0698B0296B2FCA006E30FA /* CoinpaprikaNetworkingMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB0698AB296B2FCA006E30FA /* XCRemoteSwiftPackageReference "coinpaprika-api-swift-client" */;
+			productName = CoinpaprikaNetworkingMocks;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB0698812968F39A006E30FA /* Project object */;
 }
